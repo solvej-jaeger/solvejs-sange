@@ -4139,6 +4139,11 @@ textarea.form-control-lg {
   overflow-y: visible;
 }
 
+/* I inserted this to change the color of the navbar */
+.navbar-custom {
+  background-color: #4d9d9d9 !important; 
+}
+
 .navbar-dark {
   --bs-navbar-color: rgba(255, 255, 255, 0.55);
   --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
