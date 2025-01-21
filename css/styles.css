@@ -2862,7 +2862,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #bd5d38;
 } -->
 
-.btn-primary {
+<!-- .btn-primary {
   --bs-btn-color: #ffffff; /* White text */
   --bs-btn-bg: #4a90e2; /* Blue background */
   --bs-btn-border-color: #4a90e2; /* Blue border */
@@ -2877,6 +2877,23 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #adb5bd; /* Muted gray text for disabled state */
   --bs-btn-disabled-bg: #dee2e6; /* Light gray background for disabled state */
   --bs-btn-disabled-border-color: #dee2e6; /* Light gray border for disabled state */
+} -->
+
+.btn-primary {
+  --bs-btn-color: #000; /* Black text color */
+  --bs-btn-bg: #b5a293; /* Primary background color */
+  --bs-btn-border-color: #b5a293; /* Border color matches background */
+  --bs-btn-hover-color: #000; /* Text color on hover */
+  --bs-btn-hover-bg: #a49785; /* Slightly darker shade for hover background */
+  --bs-btn-hover-border-color: #a49785; /* Matching border color on hover */
+  --bs-btn-focus-shadow-rgb: 181, 162, 147; /* RGB equivalent of #b5a293 for focus shadow */
+  --bs-btn-active-color: #000; /* Text color when active */
+  --bs-btn-active-bg: #948373; /* Darker shade for active background */
+  --bs-btn-active-border-color: #948373; /* Matching border color for active state */
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); /* Subtle shadow for active state */
+  --bs-btn-disabled-color: #000; /* Text color when disabled */
+  --bs-btn-disabled-bg: #b5a293; /* Disabled background color */
+  --bs-btn-disabled-border-color: #b5a293; /* Disabled border color */
 }
 
 .btn-secondary {
