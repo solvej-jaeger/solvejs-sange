@@ -54,10 +54,12 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Poppins", "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --bs-body-font-family: "Lora", "Playfair Display", serif;
+  <!-- --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; -->
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  <!-- --bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; -->
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -91,6 +93,7 @@
   }
 }
 
+<!--
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -100,6 +103,19 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+} -->
+
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: #fffdf0; /* Updated background color */
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -112,6 +128,7 @@ hr {
   opacity: 0.25;
 }
 
+<!--
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -164,6 +181,71 @@ h5, .h5 {
 h6, .h6 {
   font-size: 1rem;
 }
+-->
+
+h6, .h6, 
+h5, .h5, 
+h4, .h4, 
+h3, .h3, 
+h2, .h2, 
+h1, .h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: "Playfair Display", serif; /* Sleek and elegant font */
+  font-weight: 700;
+  line-height: 1.2;
+  color: #343a40;
+  letter-spacing: 1px; /* Adds elegance */
+  text-transform: capitalize; /* Avoids blocky uppercase look */
+}
+
+h1, .h1 {
+  font-size: calc(1.725rem + 5.7vw);
+}
+@media (min-width: 1200px) {
+  h1, .h1 {
+    font-size: 6rem;
+  }
+}
+
+h2, .h2 {
+  font-size: calc(1.475rem + 2.7vw);
+}
+@media (min-width: 1200px) {
+  h2, .h2 {
+    font-size: 3.5rem;
+  }
+}
+
+h3, .h3 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+  h3, .h3 {
+    font-size: 2rem;
+  }
+}
+
+h4, .h4 {
+  font-size: calc(1.275rem + 0.3vw);
+  font-style: italic; /* Adds a refined touch */
+}
+@media (min-width: 1200px) {
+  h4, .h4 {
+    font-size: 1.5rem;
+  }
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+  font-style: italic; /* Lighter and elegant */
+}
+
+h6, .h6 {
+  font-size: 1rem;
+  font-weight: 400; /* Softer weight for contrast */
+}
+
 
 p {
   margin-top: 0;
@@ -2879,7 +2961,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #dee2e6; /* Light gray border for disabled state */
 } -->
 
-.btn-primary {
+<!-- .btn-primary {
   --bs-btn-color: #000; /* Black text color */
   --bs-btn-bg: #b5a293; /* Primary background color */
   --bs-btn-border-color: #b5a293; /* Border color matches background */
@@ -2894,6 +2976,22 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #000; /* Text color when disabled */
   --bs-btn-disabled-bg: #b5a293; /* Disabled background color */
   --bs-btn-disabled-border-color: #b5a293; /* Disabled border color */
+} -->
+
+.btn-primary {
+  --bs-btn-color: #000; /* Black text color */
+  --bs-btn-bg: #D4A373; /* Warm brown primary background */
+  --bs-btn-border-color: #D4A373; /* Border color matches background */
+  --bs-btn-hover-color: #000; /* Text color on hover */
+  --bs-btn-hover-bg: #FAEDCD; /* Lighter beige for hover */
+  --bs-btn-hover-border-color: #FAEDCD; /* Matching border color */
+  --bs-btn-focus-shadow-rgb: 212, 163, 115; /* RGB for soft focus */
+  --bs-btn-active-color: #000; /* Text color when active */
+  --bs-btn-active-bg: #E9EDC9; /* Muted greenish-beige active */
+  --bs-btn-active-border-color: #E9EDC9; /* Matching border */
+  --bs-btn-disabled-color: #000; /* Disabled text color */
+  --bs-btn-disabled-bg: #CCD5AE; /* Soft green for disabled */
+  --bs-btn-disabled-border-color: #CCD5AE; /* Disabled border */
 }
 
 .btn-secondary {
@@ -4175,7 +4273,8 @@ textarea.form-control-lg {
 
 /* I inserted this to change the color of the navbar */
 #sideNav.bg-primary {
-  --bs-primary-rgb: 43, 45, 46; /* Replaced with my desired RGB values */
+  --bs-primary-rgb: 204, 213, 174; /* RGB for #CCD5AE */
+  background-color: rgb(var(--bs-primary-rgb)) !important; /* Apply the new color */
 }
 
 .navbar-dark {
@@ -10899,11 +10998,23 @@ p.lead {
   font-weight: 400;
 }
 
+<!--
 .subheading {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+} -->
+
+.subheading {
+  font-family: "Raleway Condensed", sans-serif; /* Raleway Condensed font */
+  text-transform: uppercase;
+  font-weight: 400; /* Adjust weight to your preference */
+  font-size: 1.5rem;
+}
+
+.smaller-text {
+  font-size: 1.35rem; /* Adjust size as needed */
 }
 
 #sideNav {
