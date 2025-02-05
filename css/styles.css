@@ -2900,19 +2900,18 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #000; /* Black text color */
-  --bs-btn-bg: #D4A373; /* Primary background color */
+  --bs-btn-bg: #D4A373; /* Warm brown primary background */
   --bs-btn-border-color: #D4A373; /* Border color matches background */
   --bs-btn-hover-color: #000; /* Text color on hover */
-  --bs-btn-hover-bg: #FAEDCD; /* Lighter shade for hover background */
-  --bs-btn-hover-border-color: #FAEDCD; /* Matching border color on hover */
-  --bs-btn-focus-shadow-rgb: 212, 163, 115; /* RGB equivalent of #D4A373 for focus shadow */
+  --bs-btn-hover-bg: #FAEDCD; /* Lighter beige for hover */
+  --bs-btn-hover-border-color: #FAEDCD; /* Matching border color */
+  --bs-btn-focus-shadow-rgb: 212, 163, 115; /* RGB for soft focus */
   --bs-btn-active-color: #000; /* Text color when active */
-  --bs-btn-active-bg: #E9EDC9; /* Muted greenish-beige for active background */
-  --bs-btn-active-border-color: #E9EDC9; /* Matching border color for active state */
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); /* Subtle shadow for active state */
-  --bs-btn-disabled-color: #000; /* Text color when disabled */
-  --bs-btn-disabled-bg: #CCD5AE; /* Soft green for disabled background */
-  --bs-btn-disabled-border-color: #CCD5AE; /* Disabled border color */
+  --bs-btn-active-bg: #E9EDC9; /* Muted greenish-beige active */
+  --bs-btn-active-border-color: #E9EDC9; /* Matching border */
+  --bs-btn-disabled-color: #000; /* Disabled text color */
+  --bs-btn-disabled-bg: #CCD5AE; /* Soft green for disabled */
+  --bs-btn-disabled-border-color: #CCD5AE; /* Disabled border */
 }
 
 .btn-secondary {
