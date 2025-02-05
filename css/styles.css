@@ -11007,9 +11007,9 @@ p.lead {
 } -->
 
 .subheading {
-  font-family: "Raleway", sans-serif; /* Replaced with Raleway */
+  font-family: "Raleway", sans-serif; /* Raleway font */
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 100; /* Raleway Thin */
   font-size: 1.5rem;
 }
 
