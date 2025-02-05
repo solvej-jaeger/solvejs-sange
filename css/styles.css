@@ -11013,6 +11013,10 @@ p.lead {
   font-size: 1.5rem;
 }
 
+.smaller-text {
+  font-size: 1.25rem; /* Adjust size as needed */
+}
+
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
