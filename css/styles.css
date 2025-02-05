@@ -4259,8 +4259,8 @@ textarea.form-control-lg {
 
 /* I inserted this to change the color of the navbar */
 #sideNav.bg-primary {
-  --bs-primary-rgb: 212, 163, 115; /* RGB for #D4A373 (warm brown) */
-  background-color: rgb(var(--bs-primary-rgb)) !important; /* Ensure the background updates */
+  --bs-primary-rgb: 204, 213, 174; /* RGB for #CCD5AE */
+  background-color: rgb(var(--bs-primary-rgb)) !important; /* Apply the new color */
 }
 
 .navbar-dark {
