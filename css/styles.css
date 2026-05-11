@@ -11006,11 +11006,21 @@ p.lead {
   font-size: 1.5rem;
 } -->
 
+<!--
 .subheading {
   font-family: "Raleway Condensed", sans-serif; /* Raleway Condensed font */
   text-transform: uppercase;
   font-weight: 400; /* Adjust weight to your preference */
   font-size: 1.5rem;
+} -->
+
+.subheading {
+  font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.45rem;
+  letter-spacing: 0.04em;
+  color: #5f7388;
 }
 
 .smaller-text {
