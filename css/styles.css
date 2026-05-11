@@ -10998,21 +10998,21 @@ p.lead {
   font-weight: 400;
 }
 
-<!--
+/*
 .subheading {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
-} -->
+} */
 
-<!--
+/*
 .subheading {
   font-family: "Raleway Condensed", sans-serif; /* Raleway Condensed font */
   text-transform: uppercase;
   font-weight: 400; /* Adjust weight to your preference */
   font-size: 1.5rem;
-} -->
+} */
 
 .subheading {
   font-family: "Avenir Next", "Helvetica Neue", sans-serif !important;
