@@ -11015,12 +11015,11 @@ p.lead {
 } */
 
 .subheading {
-  font-family: "Avenir Next", "Helvetica Neue", sans-serif !important;
-  text-transform: uppercase !important;
-  font-weight: 300 !important;
-  font-size: 1.45rem !important;
-  letter-spacing: 0.04em !important;
-  color: #5f7388 !important;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 1.45rem;
+  letter-spacing: 0.04em;
+  color: #5f7388;
 }
 
 .smaller-text {
